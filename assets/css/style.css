@@ -1,0 +1,56 @@
+html {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-image: linear-gradient(to right, cadetblue, lightgrey);
+}
+
+.header h1 {
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.search {
+    height: 100vh;
+    width: 25%;
+    background-color: cadetblue
+}
+
+.search-h1 {
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btn {
+    margin: 10px 15px 0 0;
+    border-bottom: 2px, black, solid;
+}
+
+.btn-info {
+    background-color: lightgrey;
+    color: black;
+}
+
+.result {
+    border: 2px, black, solid;
+    border-radius: 15px;
+    height: 300px;
+    width: 75%;
+    background-color: brown;
+    margin: 10px;
+    padding: 5px;;
+} /* TODO: fix */
+
+.five-day-card {
+    height: 100px;
+    width: 75px;
+    border: 2px, black, solid;
+    border-radius: 15px;
+    background-color: darkslategray;
+} /* TODO: fix */
