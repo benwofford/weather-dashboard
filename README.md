@@ -2,7 +2,7 @@
 
 This project's purpose is to check the current and future weather.
 
-You can access this project here: 
+You can access this project here: https://benwofford.github.io/weather-dashboard/
 
 ## Build Status ##
 
