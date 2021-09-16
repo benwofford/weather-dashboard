@@ -51,8 +51,25 @@ function searchApi(getLat, getLong) {
     })
     .then(function (locateResults) {
       console.log(locateResults)
-        // resultTextEl.textContent = locRes.search.getLat
     })
+    .then(function (locateResults) {
+      resultContentEl.textContent = locateResults.searchInputVal;
+
+      console.log(locateResults);
+
+      if (!locateResults.results.length) {
+        console.log('Please try again!');
+        resultContentEl.innerHTML = '<h3>No results found, please reformat your search.<h3>';
+      } else {
+        resultContentEl.textContent = '';
+        for (var i =0; i < locateResults.results.length; i++) {
+          showWeather(locateResults.results[i]);
+        }
+      }
+    })
+    .catch(function (error) {
+      console.error(error);
+    });
 };
 
 function showWeather(resultObj) {
