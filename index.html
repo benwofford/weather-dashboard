@@ -12,7 +12,8 @@
 </head>
 <body>
     <header class="header col md-12"><h1>Let's Check the Weather, Shall We?</h1></header>
-    <div class="search col md-4"><h1 class="search-h1">Search for a city:</h1>
+    <div class="row">
+    <div class="search col-md-4"><h1 class="search-h1">Search for a city:</h1>
     <form id="search-form" class="form w-100">
         <input id="search-input" class="form-input w-100" type="text" placeholder="Search...">
         <button class="btn btn-info btn-block" id="submit">Search</button>
@@ -21,8 +22,9 @@
 </div>
 
   <!-- search results populate here -->
-<div class="col md-8">
-    <div id="result-content"></div>
+<div class="col-md-8">
+    <div id="result-content" class='d-flex'></div>
+    </div>
     </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="./assets/js/script.js"></script>

@@ -37,20 +37,22 @@ html {
     color: black;
 }
 
-.result {
+.today-card {
+    flex: 0 0 100%;
+    max-width: 100%;
     border: 2px, black, solid;
     border-radius: 15px;
-    height: 300px;
-    width: 75%;
-    background-color: brown;
+    max-height: 200px;
     margin: 10px;
-    padding: 5px;;
-} /* TODO: fix */
+    padding: 5px;
+    position: relative;
+}
 
 .five-day-card {
-    height: 100px;
-    width: 75px;
+    height: auto;
+    min-width: 150px;
     border: 2px, black, solid;
     border-radius: 15px;
-    background-color: darkslategray;
-} /* TODO: fix */
+    display: flex;
+    flex-direction: column;
+}
