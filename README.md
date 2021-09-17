@@ -6,17 +6,17 @@ You can access this project here: https://benwofford.github.io/weather-dashboard
 
 ## Build Status ##
 
-Unfortunately the div's containing the weather information will not populate.
+Still very rough around the edges.
 
 ## Screenshots ##
 
-I've managed to assemble the functions that pull the info from the API's but I can't get the fields containing the data to populate, see below;
+I've managed to assemble the the data on to cards but I'm having difficulty getting today's weather to append above the 5-day forecast, see below;
 
-![alt=console log of an array of weather data](./images/console-log-of-info.png)
+![alt=console log of an array of weather data](./images/weather-cards.png)
 
 ## Features ##
 
-Once functional this site will provide the current and a 5 day forecast.
+--
 
 ## Code Example ##
 
